@@ -173,7 +173,7 @@ def main():
     # Now we are ready!
     print("[INFO]: Setup complete...")
     # Run the simulator
-    run_simulator(sim, scene)
+    run_simulator(sim, scene) # -运行模拟器
 
 
 if __name__ == "__main__":
