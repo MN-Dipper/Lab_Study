@@ -138,7 +138,7 @@ def run_simulator(sim: sim_utils.SimulationContext, scene: InteractiveScene):
             print("[INFO]: Resetting Jetbot and Dofbot state...")
 
         # drive around
-        if count % 100 < 75:
+        if count % 100 < 75: # -每100步中有75步
             # Drive straight by setting equal wheel velocities
             action = torch.Tensor([[10.0, 10.0]])
         else:
